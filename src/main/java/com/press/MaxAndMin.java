@@ -12,7 +12,6 @@ class MaxAndMin {
             if (mass[i] < min) min = mass[i];
             if (mass[i] > max) max = mass[i];
         }
-        int[] extremum = new int[2]{min, max};
-        return extremum;
+        return new int[2]{min, max};
     }
 }
